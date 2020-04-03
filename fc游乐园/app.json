@@ -9,7 +9,31 @@
     "navigationBarTitleText": "游乐园",
     "navigationBarTextStyle": "white"
   },
-
+  "tabBar": {
+    "backgroundColor": "#ffc845",
+    "color": "#e78700",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "icons/home-default.png",
+        "selectedIconPath": "icons/home-active.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "卡券",
+        "iconPath": "icons/cards-default.png",
+        "selectedIconPath": "icons/cards-active.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "icons/face-default.png",
+        "selectedIconPath": "icons/face-active.png",
+        "pagePath": "pages/index/index"
+      }
+    ]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
