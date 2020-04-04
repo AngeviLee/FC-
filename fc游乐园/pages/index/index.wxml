@@ -42,7 +42,7 @@
       <!-- 其它相关的 -->
       <view class="extra">
           <!-- text相当于span -->
-          <text>200人已报名</text>
+          <text class="icon-edit">200人已报名</text>
           <text>本周六开始</text>
       </view>
       <!-- 状态 -->
