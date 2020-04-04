@@ -1,11 +1,19 @@
-<!-- <button>我是一个按钮</button> -->
-
-<!-- 相当于html中的img标签 -->
-<!-- <image class="" src="../../static/uploads/content_1.png" ></image> -->
-
-<!-- view标签相当于html中的div标签 -->
-<view class="box"></view>
-
-<!-- rpx是小程序专门单位。
-小程序规定所有屏幕宽度均为750rpx,设置rpx会自动实现适配。
-设计稿的物理像素最好为750px，这样比例是1:1，容易换算。 -->
+<swiper>
+  <swiper-item>
+      <!-- image标签相对路径、绝对路径都支持 -->
+      <!-- scr="/..."绝对路径中的'/'表示项目最外层文件夹 -->
+    <image class="" src="/static/uploads/slide_1.jpg"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image class="" src="/static/uploads/slide_2.jpg"></image>    
+  </swiper-item>
+ <swiper-item>
+    <image class="" src="/static/uploads/slide_3.jpg"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image class="" src="/static/uploads/slide_4.jpg"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image class="" src="/static/uploads/slide_5.jpg"></image>    
+  </swiper-item>
+</swiper>
