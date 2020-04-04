@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/cards/index",
+    "pages/center/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,13 +27,13 @@
         "text": "卡券",
         "iconPath": "icons/cards-default.png",
         "selectedIconPath": "icons/cards-active.png",
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/cards/index"
       },
       {
         "text": "我的",
         "iconPath": "icons/face-default.png",
         "selectedIconPath": "icons/face-active.png",
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/center/index"
       }
     ]
   },
