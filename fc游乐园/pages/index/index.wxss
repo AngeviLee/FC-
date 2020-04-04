@@ -1,3 +1,7 @@
+page {
+  background-color: #F0F0F0;
+}
+
 swiper {
   height: 320rpx;
 }
@@ -5,4 +9,43 @@ swiper {
 swiper image {
   width: 750rpx;
   height: 320rpx;
+}
+
+/* 活动标题 */
+.title {
+    font-size: 28rpx;
+    color: #3C3C3C;
+    padding: 30rpx;
+    font-weight: 700;
+}
+
+/* 活动列表 */
+.item {
+    margin-bottom: 20rpx;
+}
+.item image {
+    width: 750rpx;
+    height: 320rpx;
+    vertical-align: middle;
+}
+.item .info {
+    position: relative;
+    padding: 16rpx 130rpx 20rpx 30rpx;
+    height: 180rpx;
+    box-sizing: border-box;
+    font-size: 30rpx;
+    color: #3C3C3C;
+}
+.item  .info .extra {
+    position: absolute;
+    bottom: 20rpx;
+    font-size: 22rpx;
+    color: #B4B4B4;
+}
+.info .status {
+    position: absolute;
+    top: 20rpx;
+    right: 30rpx;
+    font-size: 32rpx;
+    color: #FE6249;
 }

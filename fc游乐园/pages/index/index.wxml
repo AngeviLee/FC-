@@ -1,3 +1,4 @@
+<!-- 焦点图 -->
 <swiper
   indicator-dots
   indicator-color="rgba(255,255,255,.6)"
@@ -24,3 +25,84 @@
     <image class="" src="/static/uploads/slide_5.jpg"></image>    
   </swiper-item>
 </swiper>
+
+<!-- 标题 -->
+<view class="title">乐园活动</view>
+
+<!-- 活动 -->
+<view class="item">
+  <!-- navigator 相当于 html 中的a标签 -->
+  <navigator url="">
+      <image src="/static/uploads/item_1.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+      <!-- 活动名称 -->
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <!-- 其它相关的 -->
+      <view class="extra">
+          <!-- text相当于span -->
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+      </view>
+      <!-- 状态 -->
+      <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- navigator 相当于 html 中的a标签 -->
+  <navigator url="">
+      <image src="/static/uploads/item_2.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+      <!-- 活动名称 -->
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <!-- 其它相关的 -->
+      <view class="extra">
+          <!-- text相当于span -->
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+      </view>
+      <!-- 状态 -->
+      <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- navigator 相当于 html 中的a标签 -->
+  <navigator url="">
+      <image src="/static/uploads/item_3.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+      <!-- 活动名称 -->
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <!-- 其它相关的 -->
+      <view class="extra">
+          <!-- text相当于span -->
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+      </view>
+      <!-- 状态 -->
+      <text class="status">免费</text>
+  </view>
+</view>
+<view class="item">
+  <!-- navigator 相当于 html 中的a标签 -->
+  <navigator url="">
+      <image src="/static/uploads/item_4.png"></image>
+  </navigator>
+  <!-- 活动信息 -->
+  <view class="info">
+      <!-- 活动名称 -->
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <!-- 其它相关的 -->
+      <view class="extra">
+          <!-- text相当于span -->
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+      </view>
+      <!-- 状态 -->
+      <text class="status">免费</text>
+  </view>
+</view>
