@@ -1,4 +1,11 @@
-<swiper>
+<swiper
+  indicator-dots
+  indicator-color="rgba(255,255,255,.6)"
+  indicator-active-color="#fff"
+  autoplay
+  interval="3000"
+  circular
+>
   <swiper-item>
       <!-- image标签相对路径、绝对路径都支持 -->
       <!-- scr="/..."绝对路径中的'/'表示项目最外层文件夹 -->
