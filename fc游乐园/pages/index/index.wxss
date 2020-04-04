@@ -1,5 +1,8 @@
-.box {
+swiper {
+  height: 320rpx;
+}
+
+swiper image {
   width: 750rpx;
-  height: 200px;
-  background-color: pink;  
+  height: 320rpx;
 }
