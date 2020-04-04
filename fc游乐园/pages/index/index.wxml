@@ -10,19 +10,19 @@
   <swiper-item>
       <!-- image标签相对路径、绝对路径都支持 -->
       <!-- scr="/..."绝对路径中的'/'表示项目最外层文件夹 -->
-    <image class="" src="/static/uploads/slide_1.jpg"></image>    
+    <image class="" src="https://angevilee.github.io/StaticSource/uploads/slide_1.jpg"></image>    
   </swiper-item>
   <swiper-item>
-    <image class="" src="/static/uploads/slide_2.jpg"></image>    
+    <image class="" src="https://angevilee.github.io/StaticSource/uploads/slide_2.jpg"></image>    
   </swiper-item>
  <swiper-item>
-    <image class="" src="/static/uploads/slide_3.jpg"></image>    
+    <image class="" src="https://angevilee.github.io/StaticSource/uploads/slide_3.jpg"></image>    
   </swiper-item>
   <swiper-item>
-    <image class="" src="/static/uploads/slide_4.jpg"></image>    
+    <image class="" src="https://angevilee.github.io/StaticSource/uploads/slide_4.jpg"></image>    
   </swiper-item>
   <swiper-item>
-    <image class="" src="/static/uploads/slide_5.jpg"></image>    
+    <image class="" src="https://angevilee.github.io/StaticSource/uploads/slide_5.jpg"></image>    
   </swiper-item>
 </swiper>
 
@@ -33,7 +33,7 @@
 <view class="item">
   <!-- navigator 相当于 html 中的a标签 -->
   <navigator url="">
-      <image src="/static/uploads/item_1.png"></image>
+      <image src="https://angevilee.github.io/StaticSource/uploads/item_1.png"></image>
   </navigator>
   <!-- 活动信息 -->
   <view class="info">
@@ -52,7 +52,7 @@
 <view class="item">
   <!-- navigator 相当于 html 中的a标签 -->
   <navigator url="">
-      <image src="/static/uploads/item_2.png"></image>
+      <image src="https://angevilee.github.io/StaticSource/uploads/item_2.png"></image>
   </navigator>
   <!-- 活动信息 -->
   <view class="info">
@@ -71,7 +71,7 @@
 <view class="item">
   <!-- navigator 相当于 html 中的a标签 -->
   <navigator url="">
-      <image src="/static/uploads/item_3.png"></image>
+      <image src="https://angevilee.github.io/StaticSource/uploads/item_3.png"></image>
   </navigator>
   <!-- 活动信息 -->
   <view class="info">
@@ -90,7 +90,7 @@
 <view class="item">
   <!-- navigator 相当于 html 中的a标签 -->
   <navigator url="">
-      <image src="/static/uploads/item_4.png"></image>
+      <image src="https://angevilee.github.io/StaticSource/uploads/item_4.png"></image>
   </navigator>
   <!-- 活动信息 -->
   <view class="info">
