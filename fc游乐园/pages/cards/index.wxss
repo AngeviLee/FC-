@@ -1,1 +1,8 @@
 /* pages/cards/index.wxss */
+.box {
+    margin: 200rpx auto;
+    border: 1px solid #000;
+    width: 200rpx;
+    height: 200rpx;
+    background: url(https://angevilee.github.io/StaticSource/images/blank.png) no-repeat center;
+}

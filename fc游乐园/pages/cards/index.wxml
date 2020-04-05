@@ -1,2 +1,3 @@
 <!--pages/cards/index.wxml-->
 <text>卡券中心</text>
+<view class="box"></view>

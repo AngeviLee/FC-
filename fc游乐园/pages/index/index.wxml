@@ -38,7 +38,7 @@
   <!-- 活动信息 -->
   <view class="info">
       <!-- 活动名称 -->
-      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <view class="name">摄影兴趣班- 7天教会你精通摄影，培养孩子兴趣从娃娃抓起</view>
       <!-- 其它相关的 -->
       <view class="extra">
           <!-- text相当于span -->
@@ -76,7 +76,7 @@
   <!-- 活动信息 -->
   <view class="info">
       <!-- 活动名称 -->
-      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <view class="name">趣味识地图-欢乐游戏中认识世界地图，亲子互动不可错过</view>
       <!-- 其它相关的 -->
       <view class="extra">
           <!-- text相当于span -->
