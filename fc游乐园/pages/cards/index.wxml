@@ -38,3 +38,7 @@
         <text>否</text>
     </block>
 </view>
+
+
+<view class="bottom" hidden="{{ false }}">你能看到我</view>
+<view class="bottom" hidden="{{ true }}">你看不到我</view>
