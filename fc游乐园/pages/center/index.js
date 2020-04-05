@@ -1,9 +1,14 @@
 Page({
-  data: {},
+  data: {
+    msg: "我是原数据"
+  },
   
   sayHi: function(ev) {
     console.log("我被点击了")
     console.log("事件对象信息", ev)
+    this.setData({
+      msg: '我是新修改的数据！'
+    })
   },
 
   in() {

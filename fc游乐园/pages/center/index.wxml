@@ -5,6 +5,7 @@
   type="primary"
   data-info="我是自定义事件"
 >点击我试试看</button>
+<text>{{ msg }}</text>
 
 <input
   type="text"
