@@ -69,6 +69,13 @@
 					"pathName": "pages/cards/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/center/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

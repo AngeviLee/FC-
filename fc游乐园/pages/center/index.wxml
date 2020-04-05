@@ -1,2 +1,13 @@
 <!--pages/center/index.wxml-->
-<text>center中心</text>
+<button
+  style="margin-top: 40rpx"
+  bind:tap="sayHi"
+  type="primary"
+>点击我试试看</button>
+
+<input
+  type="text"
+  style="margin: 40rpx;height:  80rpx;border: 1rpx solid #ccc"
+  bind:focus="in"
+  bind:blur="out"
+/>
