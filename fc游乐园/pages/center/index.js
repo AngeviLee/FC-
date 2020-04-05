@@ -1,8 +1,9 @@
 Page({
   data: {},
   
-  sayHi: function() {
+  sayHi: function(ev) {
     console.log("我被点击了")
+    console.log("事件对象信息", ev)
   },
 
   in() {

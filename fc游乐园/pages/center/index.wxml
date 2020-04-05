@@ -3,6 +3,7 @@
   style="margin-top: 40rpx"
   bind:tap="sayHi"
   type="primary"
+  data-info="我是自定义事件"
 >点击我试试看</button>
 
 <input
@@ -28,6 +29,6 @@
 </view> -->
 
 <!-- 解决事件捕获 -->
-<view class="parent" capture-catch:tap="pTap">
+<!-- <view class="parent" capture-catch:tap="pTap">
     <view class="child" capture-catch:tap="cTap"></view>
-</view>
+</view> -->
