@@ -1,1 +1,12 @@
 /* pages/center/index.wxss */
+.parent {
+    width: 400rpx;
+    height: 400rpx;
+    margin: 80rpx auto;
+    background-color: pink;
+}
+.child {
+    width: 300rpx;
+    height: 300rpx;
+    background-color: royalblue;
+}

@@ -11,3 +11,23 @@
   bind:focus="in"
   bind:blur="out"
 />
+
+<!-- 这样会出现事件冒泡 -->
+<!-- <view class="parent" bind:tap="pTap">
+    <view class="child" bind:tap="cTap"></view>
+</view> -->
+
+<!-- 解决事件冒泡的做法：catch -->
+<!-- <view class="parent" bind:tap="pTap">
+    <view class="child" catch:tap="cTap"></view>
+</view> -->
+
+<!-- 这样会产生事件捕获 -->
+<!-- <view class="parent" capture-bind:tap="pTap">
+    <view class="child" capture-bind:tap="cTap"></view>
+</view> -->
+
+<!-- 解决事件捕获 -->
+<view class="parent" capture-catch:tap="pTap">
+    <view class="child" capture-catch:tap="cTap"></view>
+</view>
