@@ -32,3 +32,5 @@
 <!-- <view class="parent" capture-catch:tap="pTap">
     <view class="child" capture-catch:tap="cTap"></view>
 </view> -->
+
+<button bind:tap="send">发起网络请求</button>
