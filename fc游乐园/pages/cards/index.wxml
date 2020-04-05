@@ -8,6 +8,8 @@
     <text>姓名</text>
     <text>年龄</text>
     <text>性别</text>
+    <text>成年</text>
+    <text>批准</text>
 </view>
 <!-- wx:for={{ students }} 相当于  v-for="(item,index) in students" -->
 <!-- 小程序中的wx:for默认使用item充当数组的遍历单元 -->
@@ -17,4 +19,22 @@
     <text>{{ item.name }}</text>
     <text>{{ item.age }}</text>
     <text>{{ item.gender}}</text>
+
+    <!-- 方案一： 修改比较麻烦，有几处修改几处
+    <!-- 对应成年那一行 -->
+    <!-- <text wx:if="{{ item.age >= 18 }}">是</text>
+    <text wx:else>否</text> -->
+    <!-- 对应批准那一行 -->
+    <!-- <text wx:if="{{ item.age >= 18 }}">是</text>
+    <text wx:else>否</text> --> 
+
+    <!-- 方案二: 利用block集中控制逻辑 -->
+    <block wx:if="{{ item.age  >= 18 }}">
+        <text>是</text>
+        <text>是</text>
+    </block>
+    <block wx:else>
+        <text>否</text>
+        <text>否</text>
+    </block>
 </view>

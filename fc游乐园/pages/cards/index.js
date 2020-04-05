@@ -13,7 +13,7 @@ Page({
         gender: '女'
       },
       {
-        name: 'AngeviLee',
+        name: 'Lee',
         age: 25,
         gender: '男'
       }
