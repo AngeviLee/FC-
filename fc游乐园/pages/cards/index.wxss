@@ -6,3 +6,14 @@
     height: 200rpx;
     background: url(https://angevilee.github.io/StaticSource/images/blank.png) no-repeat center;
 }
+
+view {
+    display: flex;
+    justify-content: center;
+}
+view text {
+    flex: 1;
+    text-align: center;
+    line-height: 60rpx;
+    margin-top: 20rpx;
+}

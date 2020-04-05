@@ -1,3 +1,20 @@
 <!--pages/cards/index.wxml-->
-<text>卡券中心</text>
 <view class="box"></view>
+
+<!-- 数据绑定 -->
+<!-- 小程序中没有表格，需要自己制作 -->
+<view class="table">
+    <text>序号</text>
+    <text>姓名</text>
+    <text>年龄</text>
+    <text>性别</text>
+</view>
+<!-- wx:for={{ students }} 相当于  v-for="(item,index) in students" -->
+<!-- 小程序中的wx:for默认使用item充当数组的遍历单元 -->
+<!-- wx:key="*this"   *this代表item本身 -->
+<view wx:for="{{ students }}" wx:key="*this">
+    <text>{{ index+1 }}</text>
+    <text>{{ item.name }}</text>
+    <text>{{ item.age }}</text>
+    <text>{{ item.gender}}</text>
+</view>
