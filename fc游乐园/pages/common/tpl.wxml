@@ -1,0 +1,7 @@
+<template name="tpl2">
+  <view class="header">
+    <text>姓名： {{name}}</text>
+    <text>年龄： {{age}}</text>
+    <text>性别： {{gender}}</text>
+  </view>
+</template>

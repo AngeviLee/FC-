@@ -47,5 +47,15 @@
   </view>
 </template>
 
+<!-- 引用外部的公共模板 -->
+<!-- 通过 import 引入外部公共部分会更实用 -->
+<!-- 也可以通过 data 属性向模板中出入数据 -->
+<!-- 一般简单的公共逻辑部分，我们是用template模板引入；复杂的我们是用自定义组件 -->
+<import src="../common/tpl.wxml"></import>
+<!-- <template is="tpl2"></template> -->
+<template is="tpl2" data="{{ name: 'DD', age: 25, gender: '男'}}"></template>
+
+
+
 <template is="tpl"></template>
 
