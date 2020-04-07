@@ -35,3 +35,17 @@
 </view> -->
 
 <button bind:tap="send">发起网络请求</button>
+
+<!-- 小程序模板语法及用法 -->
+<!-- 小程序中使用template模板解决公共部分的处理 -->
+<!-- 1. 通过template将公共部分包裹起来,定义一个name属性 -->
+<!-- 2. 再通过tempalte 将其引入；且通过 is 属性指定模板 -->
+<template name="tpl">
+  <view class="header">
+    <text>姓名： 小明</text>
+    <text>年龄： 25</text>
+  </view>
+</template>
+
+<template is="tpl"></template>
+
