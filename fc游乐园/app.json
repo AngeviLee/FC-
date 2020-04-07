@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/cards/index",
-    "pages/center/index"
+    "pages/center/index",
+    "pages/form/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,11 @@
+<form bind:submit="handleSubmit">
+    <view>
+        <label for="">姓名</label>
+        <input type="text" name="name"/>
+    </view>
+    <view>
+        <label for="">密码</label>
+        <input type="password" name="password" />
+    </view>
+    <button type="primary" form-type="submit">提交</button>
+</form>

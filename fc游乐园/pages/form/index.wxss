@@ -1,0 +1,27 @@
+
+form {
+    display: block;
+    padding: 40rpx;
+}
+
+form view {
+    display: flex;
+    margin: 20rpx 0;
+}
+
+view label {
+    width: 120rpx;
+    line-height: 80rpx;
+}
+
+form input {
+    flex: 1;
+    border: 1rpx solid #000;
+    border-radius: 10rpx;
+    height: 80rpx;
+    padding-left: 20rpx;
+}
+
+button {
+    width: 100% !important;
+}
