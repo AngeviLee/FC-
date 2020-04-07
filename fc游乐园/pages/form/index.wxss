@@ -22,6 +22,10 @@ form input {
     padding-left: 20rpx;
 }
 
+view label {
+    margin-right: 20rpx;
+}
+
 button {
     width: 100% !important;
 }

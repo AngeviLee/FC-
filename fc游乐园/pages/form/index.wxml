@@ -5,7 +5,24 @@
     </view>
     <view>
         <label for="">密码</label>
-        <input type="password" name="password" />
+        <input type="text" name="password" />
     </view>
+    <!-- 小程序中使用单选框组合、复选框组合 -->
+    <!-- 通过bind:change事件获取选中的值 -->
+    <view>
+        <radio-group bind:change="getRadioValue">
+        性别:
+            <label for=""><radio value="男" checked/> 男</label>
+            <label for=""><radio value="女" /> 女</label>
+        </radio-group>
+    </view>
+    <view>
+        <checkbox-group bind:change="getCheckboxValue">
+            爱好:
+            <label for=""><checkbox value="篮球" />篮球</label>
+            <label for=""><checkbox value="台球" />台球</label>
+        </checkbox-group>
+    </view>
+
     <button type="primary" form-type="submit">提交</button>
 </form>
