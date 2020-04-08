@@ -32,5 +32,6 @@ Page({
 
   getGlobalData() {
     console.log("我在表单页面获取到的全局app", app.name)
+    app.sayHi()
   }
 })
