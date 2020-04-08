@@ -106,3 +106,4 @@
       <text class="status">免费</text>
   </view>
 </view>
+<button bind:tap="gotoForm">跳转Form页面</button>

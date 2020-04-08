@@ -1,3 +1,5 @@
+const app = getApp()
+
 Page({
   data: {
     gender: '男',
@@ -26,5 +28,9 @@ Page({
       hobby: ev.detail.value
     })
     console.log("this.data.hobby", this.data.hobby)
+  },
+
+  getGlobalData() {
+    console.log("我在表单页面获取到的全局app", app.name)
   }
 })
