@@ -17,7 +17,7 @@ App({
 
   onShow() {
     console.log('小程序前台运行了')
-    wx.requnss()  //  为触发onError()而故意伪造
+    // wx.requnss()  //  为触发onError()而故意伪造
   },
 
   onHide() {

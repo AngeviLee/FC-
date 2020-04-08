@@ -42,3 +42,6 @@
 
 <view class="bottom" hidden="{{ false }}">你能看到我</view>
 <view class="bottom" hidden="{{ true }}">你看不到我</view>
+
+<!-- 为测试页面级别的onHide()生命周期而伪造 -->
+<navigator url="/pages/form/index">跳转到表单页</navigator>
