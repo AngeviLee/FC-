@@ -81,6 +81,13 @@
 					"id": -1,
 					"name": "表单",
 					"pathName": "pages/form/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小程序实例",
+					"pathName": "pages/demo_wxs/index",
 					"scene": null
 				}
 			]

@@ -1,0 +1,13 @@
+<view class="box"></view>
+
+<!-- wxs相当于网页中的script标签 -->
+<!-- wxs天生就是模块化，所以必须通过module定义模块名 -->
+<!-- wxs不支持let const 语法 -->
+<wxs module="m1">
+    var a = 10
+    var b = 10
+    console.log("a+b=", a+b)
+</wxs>
+
+<!-- 通过wxs的src属性引入独立的wxs文件 -->
+<wxs src="../wxs/m2.wxs" module="m2"></wxs>

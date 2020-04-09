@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/cards/index",
     "pages/center/index",
-    "pages/form/index"
+    "pages/form/index",
+    "pages/demo_wxs/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
