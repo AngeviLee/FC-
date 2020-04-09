@@ -6,6 +6,10 @@
     {{ m2.sayHello() }}
 </view>
 
+<!-- 使用自定义组件 -->
+<myheader />
+
+
 <!-- wxs相当于网页中的script标签 -->
 <!-- wxs天生就是模块化，所以必须通过module定义模块名 -->
 <!-- wxs不支持let const 语法 -->

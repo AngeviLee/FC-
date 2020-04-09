@@ -1,0 +1,7 @@
+<!-- 自定义组件内容 -->
+
+<view class="box">
+    <text>首页</text>
+    <text>登录</text>
+    <text>注册</text>
+</view>
