@@ -7,7 +7,7 @@
 </view>
 
 <!-- 使用自定义组件 -->
-<myheader />
+<myheader list="{{ navs }}" />
 
 
 <!-- wxs相当于网页中的script标签 -->

@@ -4,7 +4,12 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    list: {
+      // 校验属性值的数据类型
+      type: Array,
+      // 默认值
+      value: ''
+    }
   },
 
   /**
