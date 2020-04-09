@@ -9,5 +9,10 @@ Page({
 
   onLoad() {
     console.log("引入时间模块", util.now())
+  },
+
+  getChangeData(ev) {
+    console.log('我是父组件的回调函数')
+    console.log('父组件接收子组件传过来的值', ev)
   }
 })

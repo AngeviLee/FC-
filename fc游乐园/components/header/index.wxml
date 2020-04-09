@@ -1,5 +1,9 @@
 <!-- 自定义组件内容 -->
 
 <view class="box">
-    <text wx:for="{{list}}" wx:key="*this">{{ item }}</text>
+    <text
+      wx:for="{{list}}"
+      wx:key="*this"
+      bind:tap="changeData"
+    >{{ item }}</text>
 </view>

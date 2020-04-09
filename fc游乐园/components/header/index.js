@@ -23,6 +23,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    changeData() {
+      console.log('我是子组件的回调方法')
+      // this.triggerEvent()相当于this.$emit()
+      this.triggerEvent('dataChange', {
+        type: '我',
+        num:  10
+      })
+    }
   }
 })
