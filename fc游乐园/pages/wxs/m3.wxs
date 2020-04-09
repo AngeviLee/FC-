@@ -1,0 +1,4 @@
+module.exports.run = function () {
+    console.log('我是m3.wxs模块中的方法')
+    return '我是m3.wxs模块中的方法'
+}

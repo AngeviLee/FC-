@@ -1,1 +1,7 @@
-console.log('我是外部的wxs')
+var m3 = require('./m3.wxs')
+
+module.exports.sayHello = function () {
+    console.log('我是commonJS外部模块的语句')
+    console.log('我是引进来的m3.wxs', m3.run())
+    return '我是commonJS外部模块的语句'
+}

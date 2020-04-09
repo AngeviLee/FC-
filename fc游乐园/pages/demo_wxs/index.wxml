@@ -1,4 +1,10 @@
-<view class="box"></view>
+<view class="box">
+    {{ m1.sayHi() }}
+</view>
+
+<view>
+    {{ m2.sayHello() }}
+</view>
 
 <!-- wxs相当于网页中的script标签 -->
 <!-- wxs天生就是模块化，所以必须通过module定义模块名 -->
@@ -7,6 +13,11 @@
     var a = 10
     var b = 10
     console.log("a+b=", a+b)
+
+    module.exports.sayHi = function() {
+        console.log('我是commonJs模块化导出的语句')
+        return '我是commonJs模块化导出的语句2'
+    }
 </wxs>
 
 <!-- 通过wxs的src属性引入独立的wxs文件 -->
