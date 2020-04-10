@@ -88,6 +88,13 @@
 					"id": -1,
 					"name": "小程序实例",
 					"pathName": "pages/demo_wxs/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "wx_api",
+					"pathName": "pages/api/index",
 					"scene": null
 				}
 			]

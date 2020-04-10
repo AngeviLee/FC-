@@ -1,0 +1,7 @@
+<button class="btn" type="primary" bind:tap="handleLoading">点击试试</button>
+
+<button class="btn" type="primary" bind:tap="handleToast">消息提示</button>
+
+<button class="btn" type="primary" bind:tap="handleModal">删除信息</button>
+
+<button class="btn" type="primary" bind:tap="showActionSheet">选择信息</button>
