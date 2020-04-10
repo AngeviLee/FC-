@@ -1,0 +1,9 @@
+
+
+<button type="primary" style="margin: 40rpx" bind:tap="setStorage">设置数据</button>
+
+<button type="primary" style="margin: 40rpx" bind:tap="getStorage">读取数据</button>
+
+<button type="primary" style="margin: 40rpx" bind:tap="removeStorage">删除数据</button>
+
+<button type="primary" style="margin: 40rpx" bind:tap="clearStorage">清空数据</button>

@@ -5,7 +5,8 @@
     "pages/center/index",
     "pages/form/index",
     "pages/demo_wxs/index",
-    "pages/api/index"
+    "pages/api/index",
+    "pages/storage/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

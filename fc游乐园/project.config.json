@@ -95,6 +95,13 @@
 					"id": -1,
 					"name": "wx_api",
 					"pathName": "pages/api/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "storage",
+					"pathName": "pages/storage/index",
 					"scene": null
 				}
 			]
