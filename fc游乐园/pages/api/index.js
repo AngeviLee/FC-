@@ -33,5 +33,17 @@ Page({
     wx.showActionSheet({
       itemList: ['拍照', '从本地相册选择']
     })
+  },
+
+  onLoad() {
+    wx.setNavigationBarTitle({
+      title: '淘淘游乐园'
+    })
+
+    wx.showNavigationBarLoading()
+
+    setTimeout(() => {
+      wx.hideNavigationBarLoading()
+    }, 2000)
   }
 })
